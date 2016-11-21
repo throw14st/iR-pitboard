@@ -746,9 +746,9 @@ while True:
     else:            
         count = 5
         sessionExitFlag = 1
-        if (uploadedLogs == 0):
-            uploadedLogs = 1
-            uploadLogsToCloud()
+        #if (uploadedLogs == 0):
+        #    uploadedLogs = 1
+        #    uploadLogsToCloud()
         #writeToLog (logFileName, "Connection Lost: Retrying")
         sendInfoMessage("@Connection Lost: Retrying")
         while (count > 0):
