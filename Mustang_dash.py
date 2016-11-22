@@ -524,7 +524,7 @@ while True:
         if ((ir['SessionInfo']['Sessions'][sessionNum]['SessionType']) != sessionType): # If the session changes, print the updated info on the arduino
             sessionType = ((ir['SessionInfo']['Sessions'][sessionNum]['SessionType']))  # Re-set the sessionType variable
             #writeToLog (logFileName, "Session Type Changed To " + sessionType)
-            logFileName = createLogFile()
+            #logFileName = createLogFile()
             del fuelBurn[:]                                                             # Erase current fuel usage data
             del distanceRead[:]
             boxThisLap = 0                                                              # Remove the box this lap flag
