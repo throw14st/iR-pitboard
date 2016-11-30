@@ -540,7 +540,7 @@ while True:
             distance = 0
             currentFuel = 0
             currentLap = 0
-            writeSessionInfoToLog()
+            #writeSessionInfoToLog()
             sendViaSerial('@       !') # session laps
             sendViaSerial('#       !') # completed laps
             sendViaSerial('$       !') # remaining laps
